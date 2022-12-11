@@ -122,6 +122,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
         controllers.add(mobilePlanPreferenceController);
         controllers.add(wifiPreferenceController);
         controllers.add(privateDnsPreferenceController);
+        controllers.add(new ActiveSimPreferenceController(context));
         return controllers;
     }
 
